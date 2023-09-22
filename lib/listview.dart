@@ -2,49 +2,41 @@ import 'package:flutter/material.dart';
 
 import 'functions.dart';
 
-class ScrollableWidget extends StatelessWidget {
-  const ScrollableWidget({Key? key}); // Fix the constructor syntax
+class HorizontalScroll extends StatelessWidget {
+  const HorizontalScroll({Key? key});
 
   @override
   Widget build(BuildContext context) {
-    return ListView(
-      children: [
+    return SizedBox(
+      height: 325,
+      child: ListView.builder(
+        scrollDirection: Axis.horizontal,
+        itemCount: 8, // Adjust the number of items as needed
+        itemBuilder: (BuildContext context, int index) {
+          return index.isEven
+              ? horizontalContent1()
+              : horizontalContent2();
+        },
+      ),
+    );
+  }
+}
 
-        SizedBox(
-          height: 349,
+class VerticalScroll extends StatelessWidget {
+  const VerticalScroll({Key? key});
 
-          child: ListView(
-            scrollDirection: Axis.horizontal,
-
-              children: <Widget>[
-                horizontalContent1(),
-                horizontalContent1(),
-                horizontalContent1(),
-                          ],
-                          ),
-                          ),
-
-
-        SizedBox(
-          height: 200,
-          child: ListView.builder(
-            itemCount: 20,
-            itemBuilder: (BuildContext context, int index) {
-              return Container(
-                height: 50,
-                color: Colors.green,
-                margin: const EdgeInsets.all(5),
-                child: Center(
-                  child: Text(
-                    'Item $index',
-                    style: const TextStyle(color: Colors.white),
-                  ),
-                ),
-              );
-            },
-          ),
-        ),
-      ],
+  @override
+  Widget build(BuildContext context) {
+    return SizedBox(
+      height: 200,
+      child: ListView.builder(
+        itemCount: 8, // Adjust the number of items as needed
+        itemBuilder: (BuildContext context, int index) {
+          return index.isEven
+              ? verticalContent1()
+              : verticalContent1();
+        },
+      ),
     );
   }
 }
