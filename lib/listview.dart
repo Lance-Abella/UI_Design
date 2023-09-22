@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
 
 class ScrollableWidget extends StatelessWidget {
+  const ScrollableWidget({super.key});
+
   @override
   Widget build(BuildContext context) {
     return ListView(
       children: [
-        Container(
+        SizedBox(
           height: 200,
           child: ListView.builder(
             scrollDirection: Axis.horizontal,
@@ -14,18 +16,18 @@ class ScrollableWidget extends StatelessWidget {
               return Container(
                 width: 150,
                 color: Colors.blue,
-                margin: EdgeInsets.all(5),
+                margin: const EdgeInsets.all(5),
                 child: Center(
                   child: Text(
                     'Item $index',
-                    style: TextStyle(color: Colors.white),
+                    style: const TextStyle(color: Colors.white),
                   ),
                 ),
               );
             },
           ),
         ),
-        Container(
+        SizedBox(
           height: 200,
           child: ListView.builder(
             itemCount: 20,
@@ -33,11 +35,11 @@ class ScrollableWidget extends StatelessWidget {
               return Container(
                 height: 50,
                 color: Colors.green,
-                margin: EdgeInsets.all(5),
+                margin: const EdgeInsets.all(5),
                 child: Center(
                   child: Text(
                     'Item $index',
-                    style: TextStyle(color: Colors.white),
+                    style: const TextStyle(color: Colors.white),
                   ),
                 ),
               );
