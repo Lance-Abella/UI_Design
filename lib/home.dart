@@ -13,24 +13,37 @@ class home extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         backgroundColor: customBackgroundColor,
+
         body: Column(
-          children: [
-            Container(              
-              padding: const EdgeInsets.only(top: 20),              
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [            
+            Container( 
+              margin: const EdgeInsets.only(top: 40, left: 20),                                        
               child: StyledText(
                   text: 'Online',
-                  textStyle: const TextStyle(
-                    fontSize: 20,
+                  textStyle: TextStyle(            
+                    fontSize: 36,
                     fontWeight: FontWeight.bold,
                     color: Colors.white,
-                    // Add textAlign directly to the TextStyle                    
+                    fontFamily: 'Roboto',                                      
                   ),
-                  textAlign: TextAlign.left,
-                  padding: const EdgeInsets.all(16),
                 ),
-              
             ),
-            const Expanded(
+
+            Container( 
+              margin: const EdgeInsets.only(top: 10, left: 20),                                        
+              child: StyledText(
+                  text: 'Master Class',
+                  textStyle: TextStyle(            
+                    fontSize: 36,
+                    fontWeight: FontWeight.normal,
+                    color: Colors.white,
+                    fontFamily: 'Roboto',                                      
+                  ),
+                ),
+            ),
+
+            Expanded(
               child: ScrollableWidget(),
             ),
           ],

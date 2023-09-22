@@ -20,7 +20,7 @@ class StyledText extends StatelessWidget {
       child: Text(
         text,
         style: textStyle,
-        textAlign: textAlign, // Apply textAlign directly to the Text widget
+        textAlign: textAlign, 
       ),
     );
   }
