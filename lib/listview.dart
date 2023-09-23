@@ -34,7 +34,7 @@ class VerticalScroll extends StatelessWidget {
         itemBuilder: (BuildContext context, int index) {
           return index.isEven
               ? verticalContent1()
-              : verticalContent1();
+              : verticalContent2();
         },
       ),
     );
