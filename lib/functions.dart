@@ -193,186 +193,123 @@ Widget horizontalContent2() {
 
 Widget verticalContent1() {
   return Container(
-                  
-                  
-                  
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
+    child: Column(
+    crossAxisAlignment: CrossAxisAlignment.start,
 
-                      children: [  
+      children: [  
+                                                                                                                
+          Stack(
+            children: [
 
-                        
-                              
-                    //     Container(
-                    //       width: 115,
-                    //       height: 39,
-                    //       decoration: BoxDecoration(
-                    //       borderRadius: BorderRadius.circular(20),
-                    //       color: Color.fromRGBO(244, 198, 122, 0.9),
-                    //       ),
-                    //       margin: EdgeInsets.only(top: 10, left: 10, bottom: 10),
-                                                        
-                    //         child: Center(
-                    //           child: Padding(
-                    //             padding: const EdgeInsets.all(10),
-                    //             child: Text(
-                    //               'NEW CLASS',
-                    //               style: TextStyle(
-                    //               color: Colors.white,
-                    //               fontWeight: FontWeight.w900,
-                    //               fontSize: 14,
-                    //               ),
-                    //               ),
-                    //           ),
-                    //             ),
-                    //             ),
+              Container( 
+                width: 360,
+                height: 92,
+                margin: const EdgeInsets.only(left: 20, right: 20, top: 30, bottom: 20),
+                decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(22), 
+                color: Color.fromRGBO(65, 58, 109, 100),
+                ),                      
+                ),          
 
-                                       
+              Positioned(                          
+                left: 40, bottom: 35,
+                child: ClipRRect(
+                borderRadius: BorderRadius.circular(10),
+                  child: Image(
+                    image: AssetImage('assets/Rectangle 4.png'),
+                    width: 117, // Set the desired width
+                    height: 100, // Set the desired height
+                    fit: BoxFit.cover,
+                    ),
+                    ),
+                    ),
 
-                        Stack(
-                          children: [
+              Positioned(                          
+                left: 40, bottom: 36,
+                child: ClipRRect(
+                borderRadius: BorderRadius.circular(10),
+                  child: Image(
+                    image: AssetImage('assets/Saly-24.png'),
+                    width: 115, // Set the desired width
+                    height: 138, // Set the desired height
+                    fit: BoxFit.cover,
+                    ),
+                    ),
+                    ),
 
-                    //         Container(
-                    //           margin: EdgeInsets.only(left: 5, top: 0 ),
-                    //         child: Padding(
-                    //           padding: const EdgeInsets.all(10),
-                    //           child: Text(
-                    //             'GRAPHIC DESIGN',
-                    //             style: TextStyle(
-                    //             color: Colors.white,
-                    //             fontWeight: FontWeight.w900,
-                    //             fontSize: 25,
-                    //             fontFamily: 'Roboto'
-                    //             ),
-                    //             ),
-                    //         ), 
-                    //       ),
+              Positioned( 
+                left: 160, top: 25,                                                
+                child: Padding(
+                padding: const EdgeInsets.all(10),
+                  child: Text(
+                  'Flutter Developer',
+                  style: TextStyle(
+                  color: Colors.white,
+                  fontWeight: FontWeight.w600,
+                  fontSize: 18,
+                  fontFamily: 'Roboto'
+                  ),
+                  ),
+                  ), 
+                  ), 
 
-                    //     
-                    //
-                            Container( 
-                              width: 360,
-                              height: 92,
-                              margin: const EdgeInsets.only(left: 20, right: 20, top: 30, bottom: 20),
-                              decoration: BoxDecoration(
-                              borderRadius: BorderRadius.circular(22), 
-                              color: Color.fromRGBO(65, 58, 109, 100),
-                              ),                      
-                              ),          
+              Positioned( 
+                left: 160, top: 50,                                                
+                child: Padding(
+                  padding: const EdgeInsets.all(10),
+                  child: Text(
+                    '8 hours',
+                    style: TextStyle(
+                    color: Color.fromRGBO(140, 140, 140, 80),
+                    fontWeight: FontWeight.w400,
+                    fontSize: 15,
+                    fontFamily: 'Roboto'
+                    ),
+                    ),
+                    ), 
+                    ), 
 
-                            Positioned(                          
-                             left: 40, bottom: 35,
-                            child: ClipRRect(
-                              borderRadius: BorderRadius.circular(10),
-                              child: Image(
-                                image: AssetImage('assets/Rectangle 4.png'),
-                                width: 117, // Set the desired width
-                                height: 100, // Set the desired height
-                                fit: BoxFit.cover,
-                                ),
-                            ),
-                            ),
+              Positioned(                          
+                left: 170, bottom: 35,
+                child: ClipRRect(
+                borderRadius: BorderRadius.circular(10),
+                  child: Image(
+                    image: AssetImage('assets/Frame 6.png'),
+                    width: 94, // Set the desired width
+                    height: 18, // Set the desired height
+                    fit: BoxFit.cover,
+                    ),
+                    ),
+                    ),
 
-                            Positioned(                          
-                             left: 40, bottom: 36,
-                            child: ClipRRect(
-                              borderRadius: BorderRadius.circular(10),
-                              child: Image(
-                                image: AssetImage('assets/Saly-24.png'),
-                                width: 115, // Set the desired width
-                                height: 138, // Set the desired height
-                                fit: BoxFit.cover,
-                                ),
-                            ),
-                            ),
+              Positioned(                          
+                left: 356, bottom: 50,
+                child: ClipRRect(
+                borderRadius: BorderRadius.circular(10),
+                  child: Image(
+                    image: AssetImage('assets/Ellipse 2.png'),
+                    width: 29, // Set the desired width
+                    height: 29, // Set the desired height
+                    fit: BoxFit.cover,
+                    ),
+                    ),
+                    ),
 
-                            Positioned( 
-                              left: 160, top: 25,                                                
-                            child: Padding(
-                            padding: const EdgeInsets.all(10),
-                            child: Text(
-                              'Flutter Developer',
-                              style: TextStyle(
-                              color: Colors.white,
-                              fontWeight: FontWeight.w600,
-                              fontSize: 18,
-                              fontFamily: 'Roboto'
-                              ),
-                              ),
-                          ), 
-                        ), 
-
-                        Positioned( 
-                              left: 160, top: 50,                                                
-                            child: Padding(
-                            padding: const EdgeInsets.all(10),
-                            child: Text(
-                              '8 hours',
-                              style: TextStyle(
-                              color: Color.fromRGBO(140, 140, 140, 80),
-                              fontWeight: FontWeight.w400,
-                              fontSize: 15,
-                              fontFamily: 'Roboto'
-                              ),
-                              ),
-                          ), 
-                        ), 
-
-                        Positioned(                          
-                             left: 170, bottom: 35,
-                            child: ClipRRect(
-                              borderRadius: BorderRadius.circular(10),
-                              child: Image(
-                                image: AssetImage('assets/Frame 6.png'),
-                                width: 94, // Set the desired width
-                                height: 18, // Set the desired height
-                                fit: BoxFit.cover,
-                                ),
-                            ),
-                            ),
-
-                            Positioned(                          
-                             left: 356, bottom: 50,
-                            child: ClipRRect(
-                              borderRadius: BorderRadius.circular(10),
-                              child: Image(
-                                image: AssetImage('assets/Ellipse 2.png'),
-                                width: 29, // Set the desired width
-                                height: 29, // Set the desired height
-                                fit: BoxFit.cover,
-                                ),
-                            ),
-                            ),
-
-                            Positioned(                          
-                             left: 356, bottom: 50,
-                            child: ClipRRect(
-                              borderRadius: BorderRadius.circular(10),
-                              child: Image(
-                                image: AssetImage('assets/Frame.png'),
-                                width: 29, // Set the desired width
-                                height: 29, // Set the desired height
-                                fit: BoxFit.cover,
-                                ),
-                            ),
-                            ),
-
-                    //         Container(
-                    //         margin: EdgeInsets.only(left: 50, top: 60),
-                    //         child: Image(
-                    //           image: AssetImage('assets/Saly-36.png'),
-                    //           width: 200, // Set the desired width
-                    //           height: 200, // Set the desired height
-                    //           fit: BoxFit.cover,
-                    //           ),
-                    //         ),
-
-                            
-                          ]
-                        ),
-
-                          ],
-                          ),
-                          );
-  
+              Positioned(                          
+                left: 356, bottom: 50,
+                child: ClipRRect(
+                borderRadius: BorderRadius.circular(10),
+                  child: Image(
+                    image: AssetImage('assets/Frame.png'),
+                    width: 29, // Set the desired width
+                    height: 29, // Set the desired height
+                    fit: BoxFit.cover,
+                    ),
+                    ),
+                    ),                                             
+                    ]
+                    ),
+                    ],
+                    ),
+                    );
 }
