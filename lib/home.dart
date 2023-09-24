@@ -1,37 +1,23 @@
-
-
 import 'package:flutter/material.dart';
-import 'details.dart';
 import 'listview.dart';
 import 'text_format.dart';
 
 class Home extends StatelessWidget {
-  const Home({super.key});
-
-  // void handleContentTap(int contentId) {
-  //   Navigator.push(
-  //     context as BuildContext,
-  //     MaterialPageRoute(
-  //       builder: (context) => contentId.isEven ? detail1() : detail2(),
-  //     ),
-  //   );
-  // }
+  const Home({Key? key});
 
   @override
   Widget build(BuildContext context) {
     Color customBackgroundColor = const Color(0xFF29274F);
     
-    return MaterialApp(
-      
-     home: Scaffold(
-        
-        backgroundColor: customBackgroundColor,
-        body: SingleChildScrollView(
-          
+    return MaterialApp(      
+      home: Scaffold(        
+      backgroundColor: customBackgroundColor,
+
+        body: SingleChildScrollView(          
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
 
+            children:<Widget>[
               Container(
                 margin: EdgeInsets.only(top: 40, left: 20, bottom: 8),
                 child: StyledText(
@@ -41,9 +27,9 @@ class Home extends StatelessWidget {
                     fontWeight: FontWeight.bold,
                     color: Colors.white,
                     fontFamily: 'Roboto',
-                  ),
-                ),
-              ),
+                    ),
+                    ),
+                    ),
 
               Container(
                 margin: EdgeInsets.only(bottom: 10, left: 20),
@@ -54,14 +40,12 @@ class Home extends StatelessWidget {
                     fontWeight: FontWeight.normal,
                     color: Colors.white,
                     fontFamily: 'Roboto',
-                  ),
-                ),
-              ),
+                    ),
+                    ),
+                    ),
+                            
+              HorizontalScroll(key: UniqueKey(), onContentTap: null,),
               
-              
-              HorizontalScroll(onContentTap: (int ) {},), 
-              
-
               Container(
                 margin: EdgeInsets.only(top: 20, left: 20),
                 child: StyledText(
@@ -71,9 +55,9 @@ class Home extends StatelessWidget {
                     fontWeight: FontWeight.bold,
                     color: Colors.white,
                     fontFamily: 'Roboto',
-                  ),
-                ),
-              ),
+                    ),
+                    ),
+                    ),
 
               Container(
                 margin: EdgeInsets.only(top: 5, left: 20, bottom: 2),
@@ -84,18 +68,19 @@ class Home extends StatelessWidget {
                     fontWeight: FontWeight.normal,
                     color: Color.fromRGBO(156, 154, 154, 70),
                     fontFamily: 'Roboto',
-                  ),
-                ),
-              ),
+                    ),
+                    ),
+                    ),
               
               VerticalScroll(),
-            ],
-          ),
-        ),
-      ),
-    );
-  }
-}
+
+              ],
+              ),
+              ),
+              ),
+              );
+              }
+              }
 
 
 

@@ -8,9 +8,9 @@ class detail1 extends StatelessWidget {
     Color customBackgroundColor = Color.fromRGBO(41, 39, 79, 17);
     return Directionality(
       textDirection: TextDirection.ltr,
-      child: Scaffold(
-        backgroundColor: customBackgroundColor,
-        body: Container(
+        child: Scaffold(
+          backgroundColor: customBackgroundColor,
+          body: Container(
           
           child: Stack(
     
@@ -27,7 +27,7 @@ class detail1 extends StatelessWidget {
                   colors: [Color(0xFF9288E4), Color(0xFF534EA7)],
                   ),
                   ),
-              ),
+                  ),
                   
     
               Container(                          
@@ -59,8 +59,8 @@ class detail1 extends StatelessWidget {
                   borderRadius: BorderRadius.circular(10),
                     child: Image(
                       image: AssetImage('assets/Frame 6.png'),
-                      width: 94, // Set the desired width
-                      height: 18, // Set the desired height
+                      width: 94,  
+                      height: 18,   
                       fit: BoxFit.cover,
                       ),
                       ),
@@ -88,8 +88,8 @@ class detail1 extends StatelessWidget {
                   borderRadius: BorderRadius.circular(10),
                     child: Image(
                       image: AssetImage('assets/Ellipse 3.png'),
-                      width: 45, // Set the desired width
-                      height: 45, // Set the desired height
+                      width: 45,  
+                      height: 45,   
                       fit: BoxFit.cover,
                       ),
                       ),
@@ -101,8 +101,8 @@ class detail1 extends StatelessWidget {
                   borderRadius: BorderRadius.circular(10),
                     child: Image(
                       image: AssetImage('assets/Ellipse 4.png'),
-                      width: 45, // Set the desired width
-                      height: 45, // Set the desired height
+                      width: 45,  
+                      height: 45,   
                       fit: BoxFit.cover,
                       ),
                       ),
@@ -114,8 +114,8 @@ class detail1 extends StatelessWidget {
                   borderRadius: BorderRadius.circular(10),
                     child: Image(
                       image: AssetImage('assets/Ellipse 5.png'),
-                      width: 45, // Set the desired width
-                      height: 45, // Set the desired height
+                      width: 45,  
+                      height: 45,   
                       fit: BoxFit.cover,
                       ),
                       ),
@@ -127,8 +127,8 @@ class detail1 extends StatelessWidget {
                   borderRadius: BorderRadius.circular(10),
                     child: Image(
                       image: AssetImage('assets/Ellipse 6.png'),
-                      width: 45, // Set the desired width
-                      height: 45, // Set the desired height
+                      width: 45,  
+                      height: 45,   
                       fit: BoxFit.cover,
                       ),
                       ),
@@ -156,8 +156,8 @@ class detail1 extends StatelessWidget {
                   borderRadius: BorderRadius.circular(10),
                     child: Image(
                       image: AssetImage('assets/Rectangle 5.png'),
-                      width: 54, // Set the desired width
-                      height: 47, // Set the desired height
+                      width: 54,  
+                      height: 47,   
                       fit: BoxFit.cover,
                       ),
                       ),
@@ -169,8 +169,8 @@ class detail1 extends StatelessWidget {
                   borderRadius: BorderRadius.circular(10),
                     child: Image(
                       image: AssetImage('assets/Frame.png'),
-                      width: 24, // Set the desired width
-                      height: 24, // Set the desired height
+                      width: 24,  
+                      height: 24,   
                       fit: BoxFit.cover,
                       ),
                       ),
@@ -182,8 +182,8 @@ class detail1 extends StatelessWidget {
                   borderRadius: BorderRadius.circular(10),
                     child: Image(
                       image: AssetImage('assets/Rectangle 6.png'),
-                      width: 360, // Set the desired width
-                      height: 82, // Set the desired height
+                      width: 360,   
+                      height: 82,   
                       fit: BoxFit.cover,
                       ),
                       ),
@@ -195,8 +195,8 @@ class detail1 extends StatelessWidget {
                   borderRadius: BorderRadius.circular(10),
                     child: Image(
                       image: AssetImage('assets/Rectangle 7.png'),
-                      width: 99, // Set the desired width
-                      height: 83, // Set the desired height
+                      width: 99,  
+                      height: 83,   
                       fit: BoxFit.cover,
                       ),
                       ),
@@ -208,8 +208,8 @@ class detail1 extends StatelessWidget {
                   borderRadius: BorderRadius.circular(10),
                     child: Image(
                       image: AssetImage('assets/Saly-20.png'),
-                      width: 130, // Set the desired width
-                      height: 145, // Set the desired height
+                      width: 130,   
+                      height: 145,  
                       fit: BoxFit.cover,
                       ),
                       ),
@@ -253,8 +253,8 @@ class detail1 extends StatelessWidget {
                   borderRadius: BorderRadius.circular(10),
                     child: Image(
                       image: AssetImage('assets/Rectangle 8.png'),
-                      width: 39, // Set the desired width
-                      height: 20, // Set the desired height
+                      width: 39,  
+                      height: 20,   
                       fit: BoxFit.cover,
                       ),
                       ),
@@ -282,8 +282,8 @@ class detail1 extends StatelessWidget {
                   borderRadius: BorderRadius.circular(10),
                     child: Image(
                       image: AssetImage('assets/Rectangle 10.png'),
-                      width: 99, // Set the desired width
-                      height: 83, // Set the desired height
+                      width: 99,  
+                      height: 83,   
                       fit: BoxFit.cover,
                       ),
                       ),
@@ -295,8 +295,8 @@ class detail1 extends StatelessWidget {
                   borderRadius: BorderRadius.circular(10),
                     child: Image(
                       image: AssetImage('assets/Saly-21.png'),
-                      width: 116, // Set the desired width
-                      height: 137, // Set the desired height
+                      width: 116,   
+                      height: 137,  
                       fit: BoxFit.cover,
                       ),
                       ),
@@ -340,8 +340,8 @@ class detail1 extends StatelessWidget {
                   borderRadius: BorderRadius.circular(10),
                     child: Image(
                       image: AssetImage('assets/Rectangle 13.png'),
-                      width: 99, // Set the desired width
-                      height: 83, // Set the desired height
+                      width: 99,  
+                      height: 83,   
                       fit: BoxFit.cover,
                       ),
                       ),
@@ -353,8 +353,8 @@ class detail1 extends StatelessWidget {
                   borderRadius: BorderRadius.circular(10),
                     child: Image(
                       image: AssetImage('assets/Saly-25.png'),
-                      width: 113, // Set the desired width
-                      height: 62, // Set the desired height
+                      width: 113,   
+                      height: 62,   
                       fit: BoxFit.cover,
                       ),
                       ),
@@ -389,19 +389,15 @@ class detail1 extends StatelessWidget {
                     fontFamily: 'Roboto'
                     ),
                     ),
-                    ), 
                     ),
-                         
-      
-                          
-                        ]
-                      ),
                     ),
-          
-        ),
-    );
-  }
-}
+                    ]
+                    ),
+                    ),
+                    ),
+                    );
+                    }
+                    }
 
 class detail2 extends StatelessWidget {
   const detail2({super.key});
@@ -422,12 +418,12 @@ class detail2 extends StatelessWidget {
                   borderRadius: BorderRadius.circular(20),
                   child: Image.asset(
                     'assets/Rectangle 1.png',
-                    width: 700, // Set the desired width
-                    height: 350, // Set the desired height
+                    width: 700,   
+                    height: 350,  
                     fit: BoxFit.cover,
-                  ),
-                  ),
-                  ),
+                    ),
+                    ),
+                    ),
     
               Container(                          
                 margin: EdgeInsets.only(left: 200, top: 86),
@@ -458,8 +454,8 @@ class detail2 extends StatelessWidget {
                   borderRadius: BorderRadius.circular(10),
                     child: Image(
                       image: AssetImage('assets/Frame 6.png'),
-                      width: 94, // Set the desired width
-                      height: 18, // Set the desired height
+                      width: 94,  
+                      height: 18,   
                       fit: BoxFit.cover,
                       ),
                       ),
@@ -487,8 +483,8 @@ class detail2 extends StatelessWidget {
                   borderRadius: BorderRadius.circular(10),
                     child: Image(
                       image: AssetImage('assets/Ellipse 3.png'),
-                      width: 45, // Set the desired width
-                      height: 45, // Set the desired height
+                      width: 45,  
+                      height: 45,   
                       fit: BoxFit.cover,
                       ),
                       ),
@@ -500,8 +496,8 @@ class detail2 extends StatelessWidget {
                   borderRadius: BorderRadius.circular(10),
                     child: Image(
                       image: AssetImage('assets/Ellipse 4.png'),
-                      width: 45, // Set the desired width
-                      height: 45, // Set the desired height
+                      width: 45,  
+                      height: 45,   
                       fit: BoxFit.cover,
                       ),
                       ),
@@ -513,8 +509,8 @@ class detail2 extends StatelessWidget {
                   borderRadius: BorderRadius.circular(10),
                     child: Image(
                       image: AssetImage('assets/Ellipse 5.png'),
-                      width: 45, // Set the desired width
-                      height: 45, // Set the desired height
+                      width: 45,  
+                      height: 45,   
                       fit: BoxFit.cover,
                       ),
                       ),
@@ -526,8 +522,8 @@ class detail2 extends StatelessWidget {
                   borderRadius: BorderRadius.circular(10),
                     child: Image(
                       image: AssetImage('assets/Ellipse 6.png'),
-                      width: 45, // Set the desired width
-                      height: 45, // Set the desired height
+                      width: 45,  
+                      height: 45,   
                       fit: BoxFit.cover,
                       ),
                       ),
@@ -555,8 +551,8 @@ class detail2 extends StatelessWidget {
                   borderRadius: BorderRadius.circular(10),
                     child: Image(
                       image: AssetImage('assets/Rectangle 5.png'),
-                      width: 54, // Set the desired width
-                      height: 47, // Set the desired height
+                      width: 54,  
+                      height: 47,   
                       fit: BoxFit.cover,
                       ),
                       ),
@@ -568,8 +564,8 @@ class detail2 extends StatelessWidget {
                   borderRadius: BorderRadius.circular(10),
                     child: Image(
                       image: AssetImage('assets/Frame.png'),
-                      width: 24, // Set the desired width
-                      height: 24, // Set the desired height
+                      width: 24,  
+                      height: 24,   
                       fit: BoxFit.cover,
                       ),
                       ),
@@ -581,8 +577,8 @@ class detail2 extends StatelessWidget {
                   borderRadius: BorderRadius.circular(10),
                     child: Image(
                       image: AssetImage('assets/Rectangle 6.png'),
-                      width: 360, // Set the desired width
-                      height: 82, // Set the desired height
+                      width: 360,   
+                      height: 82,   
                       fit: BoxFit.cover,
                       ),
                       ),
@@ -594,8 +590,8 @@ class detail2 extends StatelessWidget {
                   borderRadius: BorderRadius.circular(10),
                     child: Image(
                       image: AssetImage('assets/Rectangle 7.png'),
-                      width: 99, // Set the desired width
-                      height: 83, // Set the desired height
+                      width: 99,  
+                      height: 83,   
                       fit: BoxFit.cover,
                       ),
                       ),
@@ -607,8 +603,8 @@ class detail2 extends StatelessWidget {
                   borderRadius: BorderRadius.circular(10),
                     child: Image(
                       image: AssetImage('assets/Saly-20.png'),
-                      width: 130, // Set the desired width
-                      height: 145, // Set the desired height
+                      width: 130,   
+                      height: 145,  
                       fit: BoxFit.cover,
                       ),
                       ),
@@ -652,8 +648,8 @@ class detail2 extends StatelessWidget {
                   borderRadius: BorderRadius.circular(10),
                     child: Image(
                       image: AssetImage('assets/Rectangle 8.png'),
-                      width: 39, // Set the desired width
-                      height: 20, // Set the desired height
+                      width: 39,  
+                      height: 20,   
                       fit: BoxFit.cover,
                       ),
                       ),
@@ -681,8 +677,8 @@ class detail2 extends StatelessWidget {
                   borderRadius: BorderRadius.circular(10),
                     child: Image(
                       image: AssetImage('assets/Rectangle 10.png'),
-                      width: 99, // Set the desired width
-                      height: 83, // Set the desired height
+                      width: 99,  
+                      height: 83,   
                       fit: BoxFit.cover,
                       ),
                       ),
@@ -694,8 +690,8 @@ class detail2 extends StatelessWidget {
                   borderRadius: BorderRadius.circular(10),
                     child: Image(
                       image: AssetImage('assets/Saly-21.png'),
-                      width: 116, // Set the desired width
-                      height: 137, // Set the desired height
+                      width: 116,   
+                      height: 137,  
                       fit: BoxFit.cover,
                       ),
                       ),
@@ -739,8 +735,8 @@ class detail2 extends StatelessWidget {
                   borderRadius: BorderRadius.circular(10),
                     child: Image(
                       image: AssetImage('assets/Rectangle 13.png'),
-                      width: 99, // Set the desired width
-                      height: 83, // Set the desired height
+                      width: 99,  
+                      height: 83,   
                       fit: BoxFit.cover,
                       ),
                       ),
@@ -752,8 +748,8 @@ class detail2 extends StatelessWidget {
                   borderRadius: BorderRadius.circular(10),
                     child: Image(
                       image: AssetImage('assets/Saly-25.png'),
-                      width: 113, // Set the desired width
-                      height: 62, // Set the desired height
+                      width: 113,   
+                      height: 62,   
                       fit: BoxFit.cover,
                       ),
                       ),
@@ -788,18 +784,14 @@ class detail2 extends StatelessWidget {
                     fontFamily: 'Roboto'
                     ),
                     ),
-                    ), 
                     ),
-                         
-      
-                          
-                        ]
-                      ),
                     ),
-          
-        ),
-    );
-  }
-}
+                    ]
+                    ),
+                    ),
+                    ),
+                    );
+                    }
+                    }
 
   

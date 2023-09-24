@@ -11,7 +11,8 @@ class StyledText extends StatelessWidget {
     required this.textStyle,
     this.padding = EdgeInsets.zero,
     this.textAlign = TextAlign.start,
-  });
+    }
+    );
 
   @override
   Widget build(BuildContext context) {
@@ -21,7 +22,7 @@ class StyledText extends StatelessWidget {
         text,
         style: textStyle,
         textAlign: textAlign, 
-      ),
-    );
-  }
-}
+        ),
+        );
+        }
+        }
