@@ -1,7 +1,22 @@
 import 'package:flutter/material.dart';
 
-Widget horizontalContent1() {
-  return Container(
+import 'details.dart';
+
+class horizontalContent1 extends StatelessWidget {
+  const horizontalContent1({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return GestureDetector(
+      onTap: () {
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (context) => detail1()),
+        );
+      },
+    
+    
+    child: Container(
                   width: 246,
                   height: 349,
                   margin: const EdgeInsets.only( top: 5, left: 20),
@@ -48,7 +63,7 @@ Widget horizontalContent1() {
                           children: [
 
                             Container(
-                            margin: EdgeInsets.only(left: 80, top: 80),
+                            margin: EdgeInsets.only(left: 80, top: 85),
                             child: ClipRRect(
                               borderRadius: BorderRadius.circular(10),
                               child: Image(
@@ -61,7 +76,7 @@ Widget horizontalContent1() {
                             ),
 
                             Container(
-                            margin: EdgeInsets.only(left: 20, top: 5),
+                            margin: EdgeInsets.only(left: 20, top: 9),
                             child: Image(
                               image: AssetImage('assets/Saly-10.png'),
                               width: 230, // Set the desired width
@@ -74,12 +89,26 @@ Widget horizontalContent1() {
 
                           ],
                           ),
+                          ),
                           );
   
 }
+  }
 
-Widget horizontalContent2() {
-  return Container(
+class horizontalContent2 extends StatelessWidget {
+  const horizontalContent2({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return GestureDetector(
+      onTap: () {
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (context) => detail2()),
+        );
+      },
+    
+            child: Container(
                   width: 246,
                   height: 349,
                   margin: const EdgeInsets.only(top: 5, left: 20),
@@ -159,7 +188,7 @@ Widget horizontalContent2() {
                         ),           
 
                             Container(                          
-                            margin: EdgeInsets.only(left: 100, top: 70),
+                            margin: EdgeInsets.only(left: 100, top: 76),
                             child: ClipRRect(
                               borderRadius: BorderRadius.circular(10),
                               child: Image(
@@ -187,12 +216,17 @@ Widget horizontalContent2() {
 
                           ],
                           ),
+                          ),
                           );
-  
+  }
 }
 
-Widget verticalContent1() {
-  return Container(
+class verticalContent1 extends StatelessWidget {
+  const verticalContent1({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
     child: Column(
     crossAxisAlignment: CrossAxisAlignment.start,
 
@@ -312,10 +346,17 @@ Widget verticalContent1() {
                     ],
                     ),
                     );
+  }
 }
 
-Widget verticalContent2() {
-  return Container(
+
+class verticalContent2 extends StatelessWidget {
+  const verticalContent2({super.key}); 
+
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
     child: Column(
     crossAxisAlignment: CrossAxisAlignment.start,
 
@@ -435,4 +476,5 @@ Widget verticalContent2() {
                     ],
                     ),
                     );
+  }
 }

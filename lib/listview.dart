@@ -1,26 +1,34 @@
 import 'package:flutter/material.dart';
 
+import 'details.dart';
 import 'functions.dart';
 
 class HorizontalScroll extends StatelessWidget {
-  const HorizontalScroll({Key? key});
+  final Function(int) onContentTap;  
+  const HorizontalScroll({Key? key, required this.onContentTap});
 
   @override
   Widget build(BuildContext context) {
-    return SizedBox(
-      height: 325,
-      child: ListView.builder(
-        scrollDirection: Axis.horizontal,
-        itemCount: 8, 
-        itemBuilder: (BuildContext context, int index) {
-          return index.isEven
-              ? horizontalContent1()
-              : horizontalContent2();
-        },
+    return SingleChildScrollView(
+      child: Container(
+        height: 330,
+        child: ListView(
+            scrollDirection: Axis.horizontal,
+            children:[
+              horizontalContent1(),
+              horizontalContent2(),
+              horizontalContent1(),
+              horizontalContent2(),
+              horizontalContent1(),
+              horizontalContent2(),
+              horizontalContent1(),
+              horizontalContent2(),
+            ]                      
+            ),
       ),
-    );
-  }
-}
+    );   
+        }
+        }
 
 class VerticalScroll extends StatelessWidget {
   const VerticalScroll({Key? key});
@@ -28,7 +36,7 @@ class VerticalScroll extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: 200,
+      height: 300,
       child: ListView.builder(
         itemCount: 8, 
         itemBuilder: (BuildContext context, int index) {
