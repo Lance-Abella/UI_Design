@@ -2,15 +2,15 @@ import 'package:flutter/material.dart';
 import 'listview.dart';
 import 'text_format.dart';
 
-class home extends StatelessWidget {
-  const home({super.key});
+class Home extends StatelessWidget {
+  const Home({super.key});
 
   @override
   Widget build(BuildContext context) {
     Color customBackgroundColor = const Color(0xFF29274F);
 
     return MaterialApp(
-      home: Scaffold(
+     home: Scaffold(
         backgroundColor: customBackgroundColor,
         body: SingleChildScrollView(
           
@@ -43,8 +43,15 @@ class home extends StatelessWidget {
                   ),
                 ),
               ),
-              
-              HorizontalScroll(),
+
+              GestureDetector(
+                onTap: () {
+                Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => HorizontalScroll(),), // Navigate to SecondScreen
+              );
+              },
+              ),
               
               Container(
                 margin: EdgeInsets.only(top: 20, left: 20),

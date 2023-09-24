@@ -300,7 +300,7 @@ Widget verticalContent1() {
                 child: ClipRRect(
                 borderRadius: BorderRadius.circular(10),
                   child: Image(
-                    image: AssetImage('assets/Frame.png'),
+                    image: AssetImage('assets/Frame1.1.png'),
                     width: 29, // Set the desired width
                     height: 29, // Set the desired height
                     fit: BoxFit.cover,
@@ -339,7 +339,7 @@ Widget verticalContent2() {
                 child: ClipRRect(
                 borderRadius: BorderRadius.circular(10),
                   child: Image(
-                    image: AssetImage('assets/Rectangle 5.png'),
+                    image: AssetImage('assets/Rectangle 3.png'),
                     width: 117, // Set the desired width
                     height: 100, // Set the desired height
                     fit: BoxFit.cover,
@@ -423,7 +423,7 @@ Widget verticalContent2() {
                 child: ClipRRect(
                 borderRadius: BorderRadius.circular(10),
                   child: Image(
-                    image: AssetImage('assets/Frame.png'),
+                    image: AssetImage('assets/Frame1.1.png'),
                     width: 29, // Set the desired width
                     height: 29, // Set the desired height
                     fit: BoxFit.cover,
