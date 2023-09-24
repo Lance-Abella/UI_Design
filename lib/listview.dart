@@ -11,7 +11,7 @@ class HorizontalScroll extends StatelessWidget {
       height: 325,
       child: ListView.builder(
         scrollDirection: Axis.horizontal,
-        itemCount: 8, // Adjust the number of items as needed
+        itemCount: 8, 
         itemBuilder: (BuildContext context, int index) {
           return index.isEven
               ? horizontalContent1()
@@ -30,7 +30,7 @@ class VerticalScroll extends StatelessWidget {
     return SizedBox(
       height: 200,
       child: ListView.builder(
-        itemCount: 8, // Adjust the number of items as needed
+        itemCount: 8, 
         itemBuilder: (BuildContext context, int index) {
           return index.isEven
               ? verticalContent1()

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'details.dart';
 import 'listview.dart';
 import 'text_format.dart';
 
@@ -46,13 +47,14 @@ class Home extends StatelessWidget {
 
               GestureDetector(
                 onTap: () {
-                Navigator.push(
-                context,
-                MaterialPageRoute(builder: (context) => HorizontalScroll(),), // Navigate to SecondScreen
-              );
-              },
+                Navigator.of(context).push(MaterialPageRoute(
+                builder: (context) => Details(),
+                  ) // Navigate to SecondScreen
+                  );
+                  },
+              child: HorizontalScroll(),
               ),
-              
+
               Container(
                 margin: EdgeInsets.only(top: 20, left: 20),
                 child: StyledText(
