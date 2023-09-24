@@ -15,26 +15,28 @@ class detail1 extends StatelessWidget {
           child: Stack(
     
             children: [
-              Container( 
-                              
-                child: ClipRRect(
-                  borderRadius: BorderRadius.circular(20),
-                  child: Image.asset(
-                    'assets/Rectangle 2.png',
-                    width: 400, 
-                    height: 336, 
-                    fit: BoxFit.cover,
+              Container(
+                  width: 400,
+                  height: 335,
+                  margin: const EdgeInsets.only( bottom: 5,),
+                  decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(22), 
+                  gradient: LinearGradient(
+                  begin: Alignment.topLeft,
+                  end: Alignment.bottomRight,
+                  colors: [Color(0xFF9288E4), Color(0xFF534EA7)],
                   ),
                   ),
-                  ),
+              ),
+                  
     
               Container(                          
-                margin: EdgeInsets.only(left: 200, top: 86),
+                margin: EdgeInsets.only(left: 154, top: 86),
                 child: ClipRRect(
                   borderRadius: BorderRadius.circular(10),
                   child: Image(
                     image: AssetImage('assets/Ellipse 1.png'),
-                    width: 200, 
+                    width: 240, 
                     height: 250, 
                     fit: BoxFit.cover,
                     ),
@@ -44,7 +46,7 @@ class detail1 extends StatelessWidget {
               Container(
                 margin: EdgeInsets.only(left: 90, top: 40),
                 child: Image(
-                  image: AssetImage('assets/Saly-10.png'),
+                  image: AssetImage('assets/Saly-10.2.png'),
                   width: 300, 
                   height: 295, 
                   fit: BoxFit.cover,
@@ -69,7 +71,7 @@ class detail1 extends StatelessWidget {
                 child: Padding(
                   padding: const EdgeInsets.all(10),
                   child: Text(
-                    'Graphic Design Master',
+                    'UI/UX Designer Beginner',
                     style: TextStyle(
                     color: Colors.white,
                     fontWeight: FontWeight.w600,
@@ -137,7 +139,7 @@ class detail1 extends StatelessWidget {
                 child: Padding(
                   padding: const EdgeInsets.all(10),
                   child: Text(
-                    '+28K Members',
+                    '+53K Members',
                     style: TextStyle(
                     color: Color.fromRGBO(202, 202, 202, 20),
                     fontWeight: FontWeight.w400,
@@ -218,7 +220,7 @@ class detail1 extends StatelessWidget {
                 child: Padding(
                   padding: const EdgeInsets.all(10),
                   child: Text(
-                    'Introduction Design Graphic',
+                    'Introduction to Flutter ',
                     style: TextStyle(
                     color: Colors.white,
                     fontWeight: FontWeight.w700,
@@ -234,7 +236,7 @@ class detail1 extends StatelessWidget {
                 child: Padding(
                   padding: const EdgeInsets.all(10),
                   child: Text(
-                    '12 Minutes',
+                    '5 Minutes',
                     style: TextStyle(
                     color: Color.fromRGBO(140, 140, 140, 80),
                     fontWeight: FontWeight.w400,
@@ -305,7 +307,7 @@ class detail1 extends StatelessWidget {
                 child: Padding(
                   padding: const EdgeInsets.all(10),
                   child: Text(
-                    'Fundamental of Design',
+                    'Fundamental of Flutter',
                     style: TextStyle(
                     color: Colors.white,
                     fontWeight: FontWeight.w700,
@@ -321,7 +323,7 @@ class detail1 extends StatelessWidget {
                 child: Padding(
                   padding: const EdgeInsets.all(10),
                   child: Text(
-                    '16 Minutes',
+                    '8 Minutes',
                     style: TextStyle(
                     color: Color.fromRGBO(140, 140, 140, 80),
                     fontWeight: FontWeight.w400,
@@ -379,7 +381,7 @@ class detail1 extends StatelessWidget {
                 child: Padding(
                   padding: const EdgeInsets.all(10),
                   child: Text(
-                    '10 Minutes',
+                    '15 Minutes',
                     style: TextStyle(
                     color: Color.fromRGBO(140, 140, 140, 80),
                     fontWeight: FontWeight.w400,
