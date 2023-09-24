@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'functions.dart';
+import 'widgets.dart';
 
 class HorizontalScroll extends StatelessWidget {
 final Function(int)? onContentTap;  
